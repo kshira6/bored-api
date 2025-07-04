@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boredom Buster - Simple Version</title>     
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Boredom Buster!</h1>
+        <p class="subtitle">Feeling bored? No problem! Pick a category or get a random activity!</p>
+        
+        <div class="categories">
+            <button class="category-btn active" data-category="all">🎲 All Activities</button>
+            <button class="category-btn" data-category="physical">⚡ Get Moving</button>
+            <button class="category-btn" data-category="creative">🎨 Be Creative</button>
+            <button class="category-btn" data-category="social">👥 Connect</button>
+            <button class="category-btn" data-category="learning">📚 Learn Something</button>
+            <button class="category-btn" data-category="relaxation">☕ Chill Out</button>
+        </div>
+
+        <div class="activity-display">
+            <div class="activity-text" id="activityText">
+                Click "Get Activity" to discover something fun to do! 🎉
+            </div>
+        </div>
+
+        <button class="get-activity-btn" onclick="getRandomActivity()">
+            🎲 Get Activity
+        </button>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">40</div>
+                <div class="stat-label">Total Activities</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Fun Possibilities</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <br><br><br><caption><center>By KSHIRA K & MUSHAFINA R</center></caption>
+</html>
