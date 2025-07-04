@@ -23,7 +23,7 @@ Choose from multiple categories or go random — there's always something fun to
 ## 💡 How It Works
 
 1. Open the webpage.
-2. Select a category or stay with **All Activities**.
+2. Select the category or stay with **All Activities**.
 3. Click **"🎲 Get Activity"**.
 4. Read your suggestion — and do it! 🙌
 
